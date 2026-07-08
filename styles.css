@@ -515,6 +515,66 @@ h3 {
   background: var(--white);
 }
 
+.contact-info {
+  background: linear-gradient(135deg, #071a44, #0b4fbf);
+  color: var(--white);
+}
+
+.contact-info .eyebrow {
+  color: #8fdcff;
+}
+
+.contact-info-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  gap: clamp(28px, 5vw, 70px);
+  align-items: center;
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
+
+.contact-info h2 {
+  margin-bottom: 14px;
+}
+
+.contact-info p:not(.eyebrow) {
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.72;
+  font-size: 17px;
+}
+
+.contact-methods {
+  display: grid;
+  gap: 14px;
+}
+
+.contact-methods a {
+  display: grid;
+  gap: 6px;
+  padding: 18px 20px;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.contact-methods a:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.contact-methods span {
+  color: #8fdcff;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.contact-methods strong {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
 .contact-panel {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 260px;
@@ -580,6 +640,7 @@ h3 {
   .app-grid,
   .split,
   .reverse,
+  .contact-info-panel,
   .status-panel,
   .contact-panel {
     grid-template-columns: 1fr;
