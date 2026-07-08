@@ -4,6 +4,7 @@ const translations = {
     "nav.applications": "场景",
     "nav.business": "商业化",
     "nav.team": "团队",
+    "nav.contact": "联系",
     "hero.title": "三维热感知检测系统",
     "hero.lead": "把热异常从一张难定位的图，变成可复查、可报告、可进入资产管理流程的 3D 空间证据。",
     "hero.primary": "了解方案",
@@ -36,13 +37,19 @@ const translations = {
     "business.step3": "触达物业管理、基础设施运营方和工程服务公司。",
     "business.step4": "转化为巡检合同、监测服务或系统部署。",
     "status.title": "原型已验证，项目正进入试点优化与产品化包装阶段。",
-    "team.title": "由多传感器融合、机器人与无损检测方向成员推进。"
+    "team.title": "由多传感器融合、机器人与无损检测方向成员推进。",
+    "contact.title": "联系方式",
+    "contact.body": "如需了解 Thermo-LIO 项目、试点合作或申请材料，请联系项目团队。",
+    "contact.personLabel": "联系人",
+    "contact.phoneLabel": "电话",
+    "contact.emailLabel": "邮箱"
   },
   en: {
     "nav.solution": "Solution",
     "nav.applications": "Applications",
     "nav.business": "Commercialization",
     "nav.team": "Team",
+    "nav.contact": "Contact",
     "hero.title": "3D Thermal Inspection System",
     "hero.lead": "Thermo-LIO turns hard-to-locate thermal anomalies into spatial 3D evidence that can be reviewed, reported, and integrated into asset-management workflows.",
     "hero.primary": "Explore Solution",
@@ -75,7 +82,12 @@ const translations = {
     "business.step3": "Reach facility managers, infrastructure operators, and engineering service firms.",
     "business.step4": "Convert pilots into inspection contracts, monitoring services, or system deployments.",
     "status.title": "The prototype is validated, and the project is moving into pilot optimization and product packaging.",
-    "team.title": "Driven by members working across multi-sensor fusion, robotics, and non-destructive testing."
+    "team.title": "Driven by members working across multi-sensor fusion, robotics, and non-destructive testing.",
+    "contact.title": "Contact",
+    "contact.body": "For Thermo-LIO project details, pilot collaboration, or application materials, please contact the project team.",
+    "contact.personLabel": "Contact person",
+    "contact.phoneLabel": "Phone",
+    "contact.emailLabel": "Email"
   }
 };
 
