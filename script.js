@@ -1,16 +1,12 @@
-const PUBLIC_SITE_URL = "https://slanzz369.github.io/thermo-lio/";
-
 const translations = {
   zh: {
     "nav.solution": "方案",
     "nav.applications": "场景",
     "nav.business": "商业化",
     "nav.team": "团队",
-    "nav.contact": "扫码了解",
     "hero.title": "三维热感知检测系统",
     "hero.lead": "把热异常从一张难定位的图，变成可复查、可报告、可进入资产管理流程的 3D 空间证据。",
     "hero.primary": "了解方案",
-    "hero.secondary": "获取项目介绍",
     "metrics.locating": "热异常定位",
     "metrics.scenarios": "重点应用场景",
     "metrics.stage": "项目优化阶段",
@@ -40,20 +36,16 @@ const translations = {
     "business.step3": "触达物业管理、基础设施运营方和工程服务公司。",
     "business.step4": "转化为巡检合同、监测服务或系统部署。",
     "status.title": "原型已验证，项目正进入试点优化与产品化包装阶段。",
-    "team.title": "由多传感器融合、机器人与无损检测方向成员推进。",
-    "contact.title": "扫码打开 Thermo-LIO 项目网站",
-    "contact.body": "二维码已指向公开网站，可用于申请材料、展板、路演页和项目介绍文件。手机扫码即可了解 Thermo-LIO 的方案、场景、进度与团队信息。"
+    "team.title": "由多传感器融合、机器人与无损检测方向成员推进。"
   },
   en: {
     "nav.solution": "Solution",
     "nav.applications": "Applications",
     "nav.business": "Commercialization",
     "nav.team": "Team",
-    "nav.contact": "Scan",
     "hero.title": "3D Thermal Inspection System",
     "hero.lead": "Thermo-LIO turns hard-to-locate thermal anomalies into spatial 3D evidence that can be reviewed, reported, and integrated into asset-management workflows.",
     "hero.primary": "Explore Solution",
-    "hero.secondary": "View Project Info",
     "metrics.locating": "Thermal anomaly localization",
     "metrics.scenarios": "High-value application cases",
     "metrics.stage": "Pilot optimization stage",
@@ -83,14 +75,9 @@ const translations = {
     "business.step3": "Reach facility managers, infrastructure operators, and engineering service firms.",
     "business.step4": "Convert pilots into inspection contracts, monitoring services, or system deployments.",
     "status.title": "The prototype is validated, and the project is moving into pilot optimization and product packaging.",
-    "team.title": "Driven by members working across multi-sensor fusion, robotics, and non-destructive testing.",
-    "contact.title": "Scan to open the Thermo-LIO website",
-    "contact.body": "This QR code points to the public website and can be used in application materials, posters, pitch pages, and project documents. Visitors can scan it to learn about the solution, applications, progress, and team."
+    "team.title": "Driven by members working across multi-sensor fusion, robotics, and non-destructive testing."
   }
 };
-
-const qrUrl = document.getElementById("qr-url");
-if (qrUrl) qrUrl.textContent = PUBLIC_SITE_URL;
 
 const header = document.querySelector(".site-header");
 const languageToggle = document.querySelector(".language-toggle");
