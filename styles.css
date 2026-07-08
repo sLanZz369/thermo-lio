@@ -48,6 +48,14 @@ a {
   backdrop-filter: blur(18px);
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  min-width: 0;
+}
+
 .brand {
   display: flex;
   align-items: center;
@@ -95,6 +103,26 @@ a {
 .nav a:hover,
 .nav-cta {
   color: var(--blue);
+  background: #edf4ff;
+}
+
+.language-toggle {
+  flex: 0 0 auto;
+  min-width: 52px;
+  height: 38px;
+  padding: 0 12px;
+  color: var(--blue);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 22px rgba(16, 52, 110, 0.08);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.language-toggle:hover {
   background: #edf4ff;
 }
 
@@ -533,6 +561,10 @@ h3 {
     flex-direction: column;
   }
 
+  .header-actions {
+    width: 100%;
+  }
+
   .nav {
     width: 100%;
     overflow-x: auto;
@@ -565,6 +597,15 @@ h3 {
 
   .brand small {
     display: none;
+  }
+
+  .header-actions {
+    align-items: stretch;
+    flex-direction: column-reverse;
+  }
+
+  .language-toggle {
+    align-self: flex-end;
   }
 
   .hero {
